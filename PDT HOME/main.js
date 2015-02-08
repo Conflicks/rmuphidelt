@@ -25,7 +25,7 @@ function BindEventHandlers() {
 		_this.addClass('underline');
 	});
 
-	$('#body-container').hide();
-	$('#body-container').show("scale", 1000);
+	$('.pillar-block').hide();
+	$('.pillar-block').show("drop", 2000);
 }
 
