@@ -27,5 +27,8 @@ function BindEventHandlers() {
 
 	$('.pillar-block').hide();
 	$('.pillar-block').show("drop", 2000);
+	
+	$('html').hide();
+	$('html').show("fade", 1000)
 }
 
