@@ -30,5 +30,13 @@ function BindEventHandlers() {
 	
 	$('html').hide();
 	$('html').show("fade", 1000)
+
+	$('.photos').flickrPhotoStream({ id: '130431157@N07', setId: '72157648446324673' });
+ $('.photos').flickrPhotoStream({
+          id: '130431157@N07',             // Flickr Id
+          setId: '72157648446324673',          // Flick "Set" Id
+          container: '<img />',    // wrap the image
+          cssClass: 'photos-item'  // applied to the image's link
+      }).done(function () {});
 }
 
