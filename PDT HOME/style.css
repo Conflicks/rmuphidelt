@@ -184,13 +184,14 @@ span {
 	bottom: 1.2em;
 }
 
-html {
-background: url(images/slider-img-1.jpg) no-repeat center center fixed; 
+body {
+background: url(images/slide.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   min-width: 400px;
+
 }
 
 #fix-to-bottom {
@@ -203,3 +204,6 @@ div#nav-link:hover {
 	opacity:.9;
 }
 
+#slider-heading {
+
+}
