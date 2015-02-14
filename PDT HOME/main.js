@@ -29,7 +29,27 @@ function BindEventHandlers() {
 	$('.pillar-block').show("drop", 2000);
 	
 	$('html').hide();
-	$('html').show("fade", 1000)
+	$('html').show("fade", 2000);
+
+	$('div#slider-detail-caption').mouseenter(function(){
+		$(this).animate({
+			height: "+=20px",
+		}, 250, function(){
+		});
+	});
+
+	$('div#slider-detail-caption').mouseleave(function(){
+		$(this).animate({
+			height: "-=20px",
+		}, 250, function(){
+
+		});
+	});
+
+
+	//$('#eboard-container-4').hide("fade", 1000);
+
+
 
 	$('.photos').flickrPhotoStream({ id: '130431157@N07', setId: '72157648446324673' });
  $('.photos').flickrPhotoStream({
@@ -38,5 +58,6 @@ function BindEventHandlers() {
           container: '<img />',    // wrap the image
           cssClass: 'photos-item'  // applied to the image's link
       }).done(function () {});
+
 }
 
