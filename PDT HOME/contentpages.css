@@ -2,12 +2,18 @@
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
 }
-html {
+html* {
 	color: #ecf0f1;
 	background-color:#ecf0f1 ;
 	margin: 0 0 0 0;
 	padding: 0 0 0 0;
 	min-width: 800px;
+}
+
+body {
+	color: #ecf0f1;
+	background-color:#ecf0f1;
+	min-height: 1000px;
 }
 
 h1, p {
@@ -106,9 +112,7 @@ a {
 .pillar-block {
 	margin: 0 auto;
 	height: 125px;
-	max-width: 65%;
-	border-top: 2px solid #34495e;
-	border-bottom: 2px solid #34495e;
+	max-width: 60%;
 	color: #000;
 	margin-bottom: 40px;
 	overflow: visible;
@@ -149,7 +153,7 @@ a {
 	float: right;
 	color: #34495e;
 	text-align: left;
-	font-size: 11px;
+	font-size: 14px;
 }
 
 .pillar-logo-circle {
@@ -158,14 +162,23 @@ a {
 	height: 150px;
 	width: 150px;
 	background-color: rgb(0, 43, 84);
-	top: -15px;
 	left: -50px;
+	vertical-align: middle;
+	text-align: left;
 	-moz-box-shadow:    inset 0 0 10px #000000;
   	-webkit-box-shadow: inset 0 0 10px #000000;
   	box-shadow:         inset 0 0 10px #000000;
+  	bottom: -5px;
    	   
 }
 
+#eboard-back {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-right: 100px solid red;
+	border-bottom: 50px solid transparent;
+}
 #eboard-container-4 {
 	margin: 0 auto;
 	text-align: center;
