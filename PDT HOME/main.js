@@ -50,8 +50,8 @@ function BindEventHandlers() {
 
 
 	$('.eboard-logo-circle').click(function(){
-		$('#eboard-container-4').hide("fade", 500);
-		$('#eboard-container-3').hide("fade", 500);
+		$('#eboard-container-4').hide("fade", 100);
+		$('#eboard-container-3').hide("fade", 100);
 		secondhalf_function(function (){
 		});
 	});
@@ -67,7 +67,7 @@ function BindEventHandlers() {
 }
 
 function secondhalf_function() {
-	$('#biodiv').css({"width":"50%", "margin":"0 auto"});
+	$('#biodiv').css({"width":"40%", "margin":"0 auto"});
 		$('#biodiv').hide();
 		$('#biodiv').show("fade", 500);
 		$('#biodiv').html(presidentbio);
