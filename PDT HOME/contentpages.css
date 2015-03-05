@@ -175,9 +175,9 @@ a {
 #eboard-back {
 	width: 0;
 	height: 0;
-	border-top: 50px solid transparent;
-	border-right: 100px solid red;
-	border-bottom: 50px solid transparent;
+	border-top: 10px solid transparent;
+	border-right: 20px solid rgb(0, 43, 84);
+	border-bottom: 10px solid transparent;
 	margin: 0 auto;
 }
 #eboard-container-4 {
@@ -408,4 +408,45 @@ a {
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;	
+}
+
+#presidentimage {
+	background: url(images/wes.jpg) no-repeat left top;
+	background-size: 325px 475px;
+}
+
+#viceimage {
+	background: url(images/tuf.jpg) no-repeat left top;
+	background-size: 325px 475px;
+}
+
+#treasurerimage {
+	background: url(images/cory.jpg) no-repeat left top;
+	background-size: 325px 475px;
+}
+
+#secretaryimage {
+	background: url(images/lander.jpg) no-repeat left top;
+	background-size: 325px 475px;
+}
+
+#recruitmentimage {
+	background: url(images/asa.jpg) no-repeat left top;
+	background-size: 325px 475px;
+}
+
+#educator1image {
+	background: url(images/billiam.jpg) no-repeat left top;
+	background-size: 325px 475px;
+}
+
+#educator2image {
+	background: url(images/mark.jpg) no-repeat left top;
+	background-size: 325px 475px;
+}
+
+.center {
+	text-align: center;
+	margin: 0 auto;
+	margin-left: 34%;
 }
