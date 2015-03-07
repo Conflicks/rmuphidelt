@@ -270,33 +270,3 @@ div#slider-detail-caption:hover {
 	opacity: .8;
 }
 
-.thumbs { 
-	margin: 0; 
-	padding: 0; 
-	overflow: hidden;
-}
-.thumbs li {
- list-style: none;
-  float: left;
-   margin: 5px; 
-   padding: 3px; 
-   background: #eee; 
-   -moz-box-shadow: 0 0 4px #444; 
-   -webkit-box-shadow: 0 0 2px #000;
-    }
-.thumbs li a {
- }
-.thumbs li img { 
-	display: block;
-}
-.thumbs li a img { 
-	border: none;
-}
-
-#container {
- width: 800px;
- padding: 50px; 
- background: #ecf0f1 ; 
- margin: 0 auto; 
- text-align: left; 
-}

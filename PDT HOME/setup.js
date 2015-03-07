@@ -1,12 +1,6 @@
 $(document).ready(function(){
 
-	$('#basicuse').jflickrfeed({
-		limit: 8,
-		qstrings: {
-			id: '37304598@N02'
-		},
-		itemTemplate: '<li><a href="{{image_b}}"><img src="{{image_s}}" alt="{{title}}" /></a></li>'
-	});
+
 	
 	$('#cbox').jflickrfeed({
 		limit: 60,
@@ -20,6 +14,20 @@ $(document).ready(function(){
 					  '</li>'
 	}, function(data) {
 		$('#cbox a').colorbox();
+	});
+
+	$('#cbox1').jflickrfeed({
+		limit: 60,
+		qstrings: {
+			id: '28027835@N04'
+		},
+		itemTemplate: '<li>'+
+						'<a rel="colorbox" href="{{image}}" title="{{title}}">' +
+							'<img src="{{image_s}}" alt="{{title}}" />' +
+						'</a>' +
+					  '</li>'
+	}, function(data) {
+		$('#cbox1 a').colorbox();
 	});
 
 });
