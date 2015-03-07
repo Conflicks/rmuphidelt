@@ -173,16 +173,17 @@ a {
 }
 
 #eboard-back {
-	width: 150px;
-	height: 30px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 20px solid rgb(0, 43, 84);
+	border-bottom: 10px solid transparent;
 	margin: 0 auto;
-	font-family: 'Raleway';
-	font-weight: 100;
-	font-size: 28px;
-	color: #fff;
-	background-color: rgb(0, 129, 198);
-	vertical-align: middle;
-	border-radius: 3px;
+	text-indent: 30px;
+	font-family: 'Goudy Bookletter 1911', serif;
+	color: rgb(0, 43, 84);
+	vertical-align: text-top;
+	line-height: 2.5px;
 	
 }
 #eboard-container-4 {
@@ -453,14 +454,9 @@ a {
 .center {
 	text-align: center;
 	margin: 0 auto;
-	margin-bottom: 30px;
+	margin-left: 30%;
 }
 
 p {
 	font-family: 'Goudy Bookletter 1911', serif;
 }
-
-body {
-	min-width: 710px;
-}
-
