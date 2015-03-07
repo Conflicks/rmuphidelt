@@ -1,13 +1,13 @@
 body, html { margin: 0; padding: 0; background: #ccc; text-align: center; font-family: arial; }
 
-#container { width: 800px; padding: 50px; background: #ecf0f1; margin: 0 auto; text-align: left; }
+#container { width: 830px; padding: 15px; background: #ecf0f1; margin: 0 auto; text-align: left; }
 
 h1 { margin: 10px 0; }
 
 .thumbs { margin: 0; padding: 0; overflow: hidden; }
 .thumbs li { list-style: none; float: left; margin: 5px; padding: 3px; background: #eee; -moz-box-shadow: 0 0 4px #444; -webkit-box-shadow: 0 0 2px #000; }
 .thumbs li a { }
-.thumbs li img { display: block; }
+.thumbs li img { display: block; width: 150px; height: auto; }
 .thumbs li a img { border: none;}
 
 #cycle { margin: 0; padding: 0; width: 500px; height: 333px; padding: 3px; background: #eee; -moz-box-shadow: 0 0 2px #000; -webkit-box-shadow: 0 0 2px #000;}

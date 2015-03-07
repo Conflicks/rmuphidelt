@@ -3,9 +3,11 @@ $(document).ready(function(){
 
 	
 	$('#cbox').jflickrfeed({
-		limit: 60,
+		feedapi: 'photos_public.gne',
+		limit: 25,
 		qstrings: {
-			id: '130431157@N07'
+			id: '130431157@N07',
+			tags: 'websitefeed1'
 		},
 		itemTemplate: '<li>'+
 						'<a rel="colorbox" href="{{image}}" title="{{title}}">' +
@@ -17,7 +19,7 @@ $(document).ready(function(){
 	});
 
 	$('#cbox1').jflickrfeed({
-		limit: 60,
+		limit: 25,
 		qstrings: {
 			id: '28027835@N04'
 		},
