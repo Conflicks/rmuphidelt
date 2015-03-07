@@ -4,6 +4,8 @@
 	<title>About Phi Delta Theta</title>
 	
 	<link rel="stylesheet" type="text/css" href="contentpages.css">
+	<link rel="stylesheet" type="text/css" href="lightboxstyle.css">
+	<link href="colorbox/colorbox.css" rel="stylesheet" type="text/css" media="screen" /> 
 	<link href='http://fonts.googleapis.com/css?family=Raleway:800,100,400,200,300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Tinos:700&subset=latin,greek' rel='stylesheet' type='text/css'>
 
@@ -12,6 +14,9 @@
 	<!-- jQuery Reference -->
         <script type="text/javascript" src="jquery-2.1.3.js"></script>
         <script type="text/javascript" src="jquery-ui.js"></script>
+        <script type="text/javascript" src="jflickrfeed.js"></script>
+        <script type="text/javascript" src="setup.js"></script>
+        <script src="colorbox/jquery.colorbox.js"></script>
      
  
     <!--Main Functionality Javascript Reference -->
@@ -40,9 +45,11 @@
 	</div>	
 </div>
 <div id="body-container"> 
-	<div class="pillar-block bigcontent"><p id="check-back">CHECK BACK LATER FOR MORE PHOTOS!</p>
-		<div id="galleria"></div>
-	</div>
+	<p class="detail-heading"> Click on a brother's picture to read their bio. </p>
+		<div id="container">
+			<ul id="cbox" class="thumbs"></ul>
+		</div>
+	
 </div>
 </body>
 
