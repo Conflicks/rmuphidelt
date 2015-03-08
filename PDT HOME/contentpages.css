@@ -380,6 +380,9 @@ a {
 	overflow: hidden;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	background-color: rgb(215, 215, 215);
+  box-shadow: 5px 8.66px 72.68px 19.32px rgba(0, 0, 0, 0.294);
+  margin-top: 20px;
 	
 }
 
@@ -393,8 +396,7 @@ a {
 
 #event-detail {
 	width: 54.50%;
-	height: 300px;
-	display: inline-block;
+	display:inline-block;
 }
 
 #event-container-odd {
@@ -404,20 +406,24 @@ a {
 	overflow: hidden;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	background-color: rgb(215, 215, 215);
+  	box-shadow: 5px 8.66px 72.68px 19.32px rgba(0, 0, 0, 0.294);
+  	margin-top: 20px;
 
 }
 
 #event1 {
-	background: url(images/class.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;	
+	background: url(images/alumni.jpg) no-repeat left top;
+	background-size: 100% auto;
+	background-position: 0% 0%;
+	
+	
 }
 
 #presidentimage {
 	background: url(images/wes.jpg) no-repeat left top;
 	background-size: 325px 475px;
+
 }
 
 #viceimage {
@@ -464,3 +470,34 @@ body {
 	min-width: 710px;
 }
 
+.bodydiv {
+background-color: rgb(215, 215, 215);
+  box-shadow: 5px 8.66px 72.68px 19.32px rgba(0, 0, 0, 0.294);
+  padding-bottom: 40px;
+  padding-top: 40px;
+}	
+
+.event-heading-even {
+	vertical-align: top;
+	text-align: left;
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 40px;
+	padding-left: 20px;
+	float: left;
+	vertical-align: text-top;
+}
+
+.event-heading-odd {
+	text-align: left;
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 40px;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+.event-text {
+	text-align: left;
+	padding-left: 25px;
+	padding-bottom: 10px;
+}

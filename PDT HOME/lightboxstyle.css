@@ -1,6 +1,7 @@
 body, html { margin: 0; padding: 0; background: #ccc; text-align: center; font-family: arial; }
 
-#container { width: 830px; padding: 15px; background: #ecf0f1; margin: 0 auto; text-align: left; }
+#container { width: 830px; padding: 15px; background: #ecf0f1; margin: 0 auto; text-align: left;  background-color: rgb(215, 215, 215);
+  box-shadow: 5px 8.66px 72.68px 19.32px rgba(0, 0, 0, 0.294);}
 
 h1 { margin: 10px 0; }
 
