@@ -263,6 +263,16 @@ a {
     margin-top: 50px;
 
 }
+
+#body-container-aboutrmu {
+	background-color: #ecf0f1;
+	padding-top: 30px;
+	min-width: 1055px;
+	background-color: rgb(215, 215, 215);
+    box-shadow: 5px 8.66px 72.68px 19.32px rgba(0, 0, 0, 0.294);
+    margin-top: 50px;
+   /* margin-bottom: 50px;*/
+}
 #photo-body-container {
 	background-color: #ecf0f1;
 	padding-top: 30px;
@@ -527,4 +537,10 @@ body {
 
 #lastpillar {
 	padding-bottom: 150px;
+}
+
+.half-inner-container {
+	width: 49.895%;
+	height: 600px;
+	display: inline-block;
 }
