@@ -268,10 +268,9 @@ a {
 	background-color: #ecf0f1;
 	padding-top: 30px;
 	min-width: 1055px;
-	background-color: rgb(215, 215, 215);
-    box-shadow: 5px 8.66px 72.68px 19.32px rgba(0, 0, 0, 0.294);
-    margin-top: 50px;
-   /* margin-bottom: 50px;*/
+	width: 75%;
+	margin: 0 auto;
+	
 }
 #photo-body-container {
 	background-color: #ecf0f1;
@@ -540,7 +539,55 @@ body {
 }
 
 .half-inner-container {
-	width: 49.895%;
-	height: 600px;
+	min-height: 600px;
+	width: 49%;
+	display:inline-block;
+	background-color: rgb(215, 215, 215);
+  box-shadow: 5px 8.66px 72.68px 19.32px rgba(0, 0, 0, 0.294);
+   margin: 0 auto;
+   margin-left: 7px;
+   margin-left: .65%;
+   margin-bottom: 20px;
+   vertical-align: text-top;
+  
+}
+
+li {
+	font-family: 'Goudy Bookletter 1911', serif;
+	color: #666;
+}
+
+h2 {
+	color: #666;
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 50px;
+}
+
+.edgepadding {
+	padding-left: 25px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: left;
 	display: inline-block;
 }
+
+.headingedgepadding {
+	padding-bottom: 10px;
+	text-align: left;
+	display: inline-block;
+}
+
+ul.edgepadding {
+	padding-left: 75px;
+	
+}
+
+.block-heading-thin {
+	color: rgb(0, 129, 198);
+	font-family: 'Raleway';
+	font-weight: 200;
+	font-size: 50px;
+	display: inline-block;
+}
+
