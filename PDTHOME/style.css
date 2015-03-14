@@ -1,0 +1,272 @@
+/* ------------------------------------------CSS RESET-------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+
+/*------------------------------------------ END CSS RESET-------------------------------------------- */
+
+
+
+
+#slider-container {
+	width: 100%;
+	overflow: hidden;
+
+	
+}
+
+.image-container {
+	width: 100%;
+	max-height: 820px;
+	min-height: 400px;
+	height: auto;
+
+}
+
+#sliderimg1 {
+	width: 100%;
+	
+	min-height: 400px;
+	height: auto;
+
+	
+}
+
+.slider-text {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 12em;
+}
+
+#weare {
+	position: relative;
+	top: -740px;
+	left: -175px;
+	opacity: 0.3;
+	-webkit-filter: blur(3px);
+	border-style: solid;
+	border-color: black;
+	border-width: 10px;
+	width: 950px;
+
+}
+
+#phidelts {
+	position: relative;
+	top: -470px;
+	left: 45%;
+	opacity: 0.3;
+	-webkit-filter: blur(3px);
+	border-style: solid;
+	border-color: black;
+	border-width: 10px;
+}
+
+#letters {
+	font-family: 'Tinos', serif;
+}
+
+#white-rmu-logo {
+	position: relative;
+	top: -1100px;
+	float: right;
+	right: 5%;
+	opacity: 0.9;
+	
+	
+}
+
+#slider-detail {
+	width: 100%;
+	height: 5.0em;
+	background-color: #002a54;
+	-moz-box-shadow:    inset 0 0 50px #000000;
+    -webkit-box-shadow: inset 0 0 50px #000000;
+    box-shadow:         inset 0 0 50px #000000;
+    overflow:hidden;
+    height: auto;
+    opacity: .9;
+}
+
+#slider-detail-heading {
+	width: 100%;
+	height: 5.0em;
+	background-color: #002a54;
+	-moz-box-shadow:    inset 0 0 50px #000000;
+    -webkit-box-shadow: inset 0 0 50px #000000;
+    box-shadow:         inset 0 0 50px #000000;
+    overflow:hidden;
+    height: auto;
+    opacity: .7;
+    color: white;
+    position: fixed;
+    bottom: 1em;
+    margin-left: -1000px;
+
+}
+
+#slider-detail-text {
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+	font-size: 42px;
+	text-align: center;
+	padding-top: .325em;
+	padding-bottom: .325em;
+}
+
+#slider-detail-heading {
+	width: 100%;
+	height: 5.0em;
+	background-color: #002a54;
+	-moz-box-shadow:    inset 0 0 50px #000000;
+    -webkit-box-shadow: inset 0 0 50px #000000;
+    box-shadow:         inset 0 0 50px #000000;
+    overflow:hidden;
+    height: auto;
+    opacity: .7;
+    color: white;
+    position: fixed;
+    bottom: 1em;
+    margin-left: -1000px;
+    font-size: 150px;
+
+}
+
+.slide-subheading {
+	color: white;
+}
+
+
+#nav-container {
+	background-color: #ebe4d6;
+	height: 4.0em;
+	width: 100%;
+	margin: 0 auto;
+	
+}
+
+#nav-link {
+	color: #002a54;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	display: inline;
+	margin: 0 auto;
+	width: 20%;
+	float: left;
+	line-height: 4.0em;
+	text-align: center;
+	cursor: pointer;
+	opacity: .6;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+#inner-nav-container {
+	margin: 0 auto;
+	width: 50%;
+	min-width: 400px;
+
+
+}
+
+span {
+	position: relative;
+	top: 1.2em;
+	bottom: 1.2em;
+}
+
+body {
+background: url(images/slide.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width: 400px;
+
+}
+
+#fix-to-bottom {
+	position: fixed;
+	bottom: 1px;
+	width: 100%;
+}
+
+div#nav-link:hover {
+	opacity:.9;
+}
+
+#slider-heading {
+
+}
+
+div#slider-detail-caption {
+	position: fixed;
+	bottom: 4em;
+	font-family: 'Raleway';
+	font-weight: 100;
+	background-color: #002a54;
+	width: 100%;
+	opacity: .7;
+	padding-bottom: 30px;
+	padding-left: 30px;
+	text-align: center;
+	-moz-box-shadow:    inset 0 0 50px #000000;
+    -webkit-box-shadow: inset 0 0 50px #000000;
+    box-shadow:         inset 0 0 50px #000000;
+    cursor: pointer;
+
+}
+
+div#slider-detail-caption:hover {
+	opacity: .8;
+}
+
