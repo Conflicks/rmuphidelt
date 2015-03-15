@@ -580,6 +580,7 @@ h2 {
 
 .edgepadding {
 	padding-left: 25px;
+	padding-right: 25px;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	text-align: left;
@@ -607,12 +608,11 @@ ul.edgepadding {
 }
 
 #founders-lists {
-	width: 50%:;
 	display: inline-block;
 }
 
 #founders-list-container {
-	width: 60%;
+	max-width: 450px;
 	margin: 0 auto;
 	font-size: 20px;
 }
