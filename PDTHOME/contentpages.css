@@ -620,3 +620,82 @@ ul.edgepadding {
 #buyyurtickets {
 	color: rgb(0, 43, 84);
 }
+
+#gotoghq {
+	color: rgb(0, 43, 84);
+}
+
+
+.tile-image {
+	clear: both;
+	height: 250px;
+	margin: 0 auto;
+	width: 95%;
+	box-shadow: 2px 8.66px 72.68px 10.32px rgba(0, 0, 0, 0.322 );
+}
+
+#greeklifephoto {
+	background: url(images/greeklife.jpg) no-repeat bottom;
+	background-size: 95% 100%;
+	background-color: #0081C6; 
+	margin-top: 20px;
+}
+
+#campusphoto {
+	background: url(images/campus.jpg) no-repeat bottom;
+	background-size: 95% 100%;
+	background-color: #0081C6;	
+}
+
+#social-links {
+	clear: both;
+	height: 260px;
+	margin: 0 auto;
+	width: 95%;
+	margin-top: 100px;
+	
+}
+
+.social-thumb {
+	min-height: 200px;
+	min-width: 30%;
+	max-height: 200px;
+	max-width: 33%;
+	display: inline-block;
+	margin: 0 auto;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+#twitter {
+	background: url(images/twitter.png) no-repeat bottom;
+	background-size: 100% 100%;
+	
+}
+
+#fb {
+	background: url(images/fb.png) no-repeat bottom;
+	background-size: 100% 100%;
+	
+}
+
+#flickr {
+	background: url(images/flickr.png) no-repeat bottom;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	
+}
+
+.social-text {
+	position: relative;
+	top: -30px;
+}
+
+#ghqvideo {
+	margin: 0 auto;
+}
+
+#video-container {
+	width: 425px;
+	margin: 0 auto;
+}
