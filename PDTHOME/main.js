@@ -29,7 +29,7 @@ function BindEventHandlers() {
 
 	$('.pillar-block').hide();
 	$('.pillar-block').show("drop", 2000);
-	
+
 	$('html').hide();
 	$('html').show("fade", 2000);
 
@@ -83,22 +83,22 @@ function chosebio_function(position) {
 		$('.detail-heading').text("President: John 'Wes' Moore Class of 2016")
 	} else if (position == "vice") {
 		$('#biodiv').html(vicebio)
-		$('.detail-heading').text("Vice-President: Nick 'Tuf' Tufarolo Class of 2016")
+		$('.detail-heading').text("Vice-President: Nick  Tufarolo Class of 2016")
 	} else if (position == "treasurer") {
 		$('#biodiv').html(treasurerbio)
-		$('.detail-heading').text("Treasurer: Cory 'Derf' Desimone Class of 2016")
+		$('.detail-heading').text("Treasurer: Cory Desimone Class of 2016")
 	} else if (position == "secretary") {
 		$('#biodiv').html(secretarybio)
-		$('.detail-heading').text("Secretary: Zackery 'Zack' Lander Class of 2017")
+		$('.detail-heading').text("Secretary: Zackery  Lander Class of 2017")
 	} else if (position == "recruitment") {
 		$('#biodiv').html(recruitmentbio)
-		$('.detail-heading').text("Recruitment: Asa 'Parkor' Bull Class of 2016")
+		$('.detail-heading').text("Recruitment: Asa Bull Class of 2016")
 	} else if (position == "educator1") {
 		$('#biodiv').html(educator1bio)
-		$('.detail-heading').text("Phikeia Educator: William 'Bill' Bliss Class of 2016")
+		$('.detail-heading').text("Phikeia Educator: William  Bliss Class of 2016")
 	} else if (position == "educator2") {
 		$('#biodiv').html(educator2bio)
-		$('.detail-heading').text("Phikeia Educator: Mark 'TilleyTime' Tilley Class of 2017")
+		$('.detail-heading').text("Phikeia Educator: Mark  Tilley Class of 2017")
 	} else {
 		return;
 	};
